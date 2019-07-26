@@ -1,0 +1,29 @@
+{
+  "name": "ppout",
+  "version": "1.0.0",
+  "description": "CLI tool to convert a node package's export contents to JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "bin": {
+    "ppout": "./bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dereklieu/ppout.git"
+  },
+  "keywords": [
+    "cloudformation",
+    "utility"
+  ],
+  "author": "Derek Lieu <derek.lieu@mapbox.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dereklieu/ppout/issues"
+  },
+  "homepage": "https://github.com/dereklieu/ppout#readme",
+  "dependencies": {
+    "commander": "^2.20.0"
+  }
+}
